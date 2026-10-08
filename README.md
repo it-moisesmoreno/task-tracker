@@ -18,13 +18,13 @@ A continuación se presentan algunas restricciones que deben guiar la implementa
 ### Ejemplo
 A continuación se presenta la lista de comandos y su uso:
 
-// Agregar una nueva tarea
-task-cli add "Comprar el mercado"
+// Agregar una nueva tarea <br>
+  task-cli add "Comprar el mercado" <br>
 // Salida: Tarea agregada exitosamente (ID: 1)
-
-// Actualizar y eliminar tareas
-task-cli update 1 "Comprar el mercado y cocinar"
-task-cli delete 1
-
-// Mostrar todas las tareas
+<br><br>
+// Actualizar y eliminar tareas <br>
+task-cli update 1 "Comprar el mercado y cocinar" <br>
+task-cli delete 1 <br>
+<br>
+// Mostrar todas las tareas <br>
 task-cli list
